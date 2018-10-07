@@ -3,4 +3,9 @@
     check:
       jobs:
         - testjob
+        - timeout
         - noop
+
+- job:
+    name: timeout
+    run: timeout.yaml
