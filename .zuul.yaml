@@ -2,7 +2,6 @@
     name: jluk-codi-org/sampleproject
     check:
       jobs:
-        - timeout
         - noop
 
 - job:
