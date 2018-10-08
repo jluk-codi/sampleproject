@@ -3,3 +3,8 @@
     check:
       jobs:
         - noop
+        - jluk-job
+
+- job:
+    name: jluk-job
+    run: jluk-job.yaml
